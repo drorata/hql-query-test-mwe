@@ -1,0 +1,12 @@
+name: hql-query-test-mwe
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pip
+  - ipykernel
+  - pyspark
+  - findspark
+  - pytest
+  - pip:
+      - pytest-datafiles
